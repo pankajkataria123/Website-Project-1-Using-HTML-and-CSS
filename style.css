@@ -171,6 +171,7 @@ ul {
 /* ---------- Features Sections Start ---------- */
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
+    background-image: url(./assets/);
 }
 .features-header {
     text-align: center;
@@ -178,4 +179,35 @@ ul {
 .features-heading-text {
     margin-bottom: 20px;
 }
+.features-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 30px;
+}
+.features-card {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
 /* ---------- Features Sections End ---------- */
+
+
+
+/* ---------- Big-Features Sections Start ---------- */
+.big-feature-section {
+    padding: 30px var(--padding-inline-section);
+}
+.big-feature-container {
+    gap: 30px;
+}
+.feature-img img {
+    width: 100%;
+}
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* ---------- Big-Features Sections End ---------- */
