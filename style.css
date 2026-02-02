@@ -191,6 +191,9 @@ ul {
     max-width: 30%;
     text-align: center;
 }
+.features-card img{
+    width: 50px;
+}
 /* ---------- Features Sections End ---------- */
 
 
@@ -292,3 +295,13 @@ footer {
 }
 
 /* Footer End */
+
+/* SubFooter Start */
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container {
+    gap: 30px;
+    justify-content: center;
+}
