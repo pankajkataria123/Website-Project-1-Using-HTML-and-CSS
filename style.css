@@ -255,3 +255,40 @@ ul {
     box-shadow: 0 0 10px #888;
 }
 /* ---------- Examples Sections End ---------- */
+
+/* CTA Section Start */
+.cta-section-container {
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.cta-section {
+    padding: 120px var(--padding-inline-section);
+    background-color: #183b54;
+}
+.cta-section-container p {
+    color: white;
+    margin-top: 30px ;
+}
+/* CTA Section End */
+
+/* Footer Start */
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.company-logo img {
+    width: 200px;
+}
+
+/* Footer End */
